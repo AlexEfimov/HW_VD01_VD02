@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточки пользователей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            overflow: hidden;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+}
+        .card-content {
+            padding: 16px;
+        }
+        .card-content h3 {
+            margin: 0 0 8px 0;
+            font-size: 18px;
+        }
+        .card-content p {
+            margin: 4px 0;
+            color: #555;
+        }
+        .card-content a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .card-content a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/ru/c/ca/Hannibal_Lecter.jpg" alt="User Photo">
+    <div class="card-content">
+        <h3>Ганнибал Лектер</h3>
+        <p><strong>Email:</strong> cannibal@gmail.com</p>
+        <p><strong>Дата рождения:</strong> 20.01.1938</p>
+        <p><strong>Город:</strong>Вильнюс</p>
+    </div>
+</div>
+
+<div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Elon_Musk_Royal_Society.jpg/533px-Elon_Musk_Royal_Society.jpg">
+    <div class="card-content">
+        <h3>Илон Маск</h3>
+        <p><strong>Email:</strong> elon.musk@x.com</p>
+        <p><strong>Дата рождения:</strong> 28.06.1971</p>
+        <p><strong>Город:</strong>Техас</p>
+    </div>
+</div>
+
+<div class="card">
+    <img src="https://s00.yaplakal.com/pics/pics_original/4/8/4/17588484.jpg" alt="User Photo">
+    <div class="card-content">
+        <h3>Шура Камень</h3>
+        <p><strong>Email:</strong>sharonstone@ya.ru</p>
+        <p><strong>Дата рождения:</strong> 10.12.1992</p>
+        <p><strong>Город:</strong>Улан-Батор</p>
+    </div>
+</div>
+
+</body>
+</html>
